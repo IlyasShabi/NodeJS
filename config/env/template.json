@@ -2,6 +2,6 @@
   "mongo": {
     "host": "localhost",
     "port": 27017,
-    "database": "chat-app"
+    "database": "nodeJS-db"
   }
 }
