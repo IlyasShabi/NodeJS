@@ -1,8 +1,0 @@
-File from: [-WDC92S4Dcdm0Uhot2rr3ASX.png]
-
-File to: [./t1hdnk-WDC92S4Dcdm0Uhot2rr3ASX.png]
-
-Compression algorithm: [pngquant]
-
-Description: Error: Command failed: C:\Users\lenovo\Desktop\PROJECT\OnePlateform\server\node_modules\pngquant-bin\vendor\pngquant.exe --quality=20-50 -o ./t1hdnk-WDC92S4Dcdm0Uhot2rr3ASX.png -WDC92S4Dcdm0Uhot2rr3ASX.png
-Unrecognized option: 'W'
