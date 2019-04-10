@@ -20,7 +20,6 @@ module.exports = [{
         token: true
     },
     handler: async (req, res) => {
-        console.log("======================");
         const [err, user] = await to(ctrl.create(req.body));
         return Response.build(res, [err, user], [500, 201]);
     }

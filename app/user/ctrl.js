@@ -27,8 +27,6 @@ module.exports.findById = (id) => {
 
 module.exports.create = (data) => {
     let user = new User(data);
-    console.log("Xxxxxxxxxxxxxxxxxxxxx" , user);
-    
     user.password = user.generateHash(data.password);
     return dao.save(user);
 }
