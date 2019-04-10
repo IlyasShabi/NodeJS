@@ -1,0 +1,57 @@
+{
+  "superAdmin": {
+    "firstName": "super",
+    "lastName": "admin",
+    "email": "a@a.fr",
+    "password": "a",
+    "isSuperAdmin": true,
+    "role": "Admin"
+  },
+  "server": {
+    "node": {
+      "port": 4000,
+      "oldFile": "server.js",
+      "newFile": "server.js"
+    }
+  },
+  "seed": false,
+  "unitTest": false,
+  "mail": {
+    "selectedOption": "smtp",
+    "options": {
+      "smtp": {
+        "host": "",
+        "from": "email",
+        "debug": true,
+        "logger": true,
+        "port": 0,
+        "secure": false,
+        "requireTLS": true,
+        "authMethod": "PLAIN",
+        "auth": {
+          "pass": "password",
+          "user": "email"
+        }
+      },
+      "ses": {
+        "accessKeyId": "",
+        "secretAccessKey": ""
+      }
+    }
+  },
+  "jwt": {
+    "secretOrPublicKey": "#mySecretKey$",
+    "algorithm": "HS512",
+    "expiresIn": 14400
+  },
+  "fileStorage": {
+    "storage": "gridfs",
+    "useCompression" : true,
+    "s3": {
+      "accessKeyId": "keyId",
+      "secretAccessKey": "key",
+      "region": "eu-west-1",
+      "bucket" : "bucket"
+    }
+  }
+}

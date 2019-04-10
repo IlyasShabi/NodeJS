@@ -1,0 +1,38 @@
+{
+  "name": "nodejs",
+  "author": "ilyas_shabi",
+  "main": "server.js",
+  "dependencies": {
+    "async": "^2.1.4",
+    "await-to-js": "^2.1.1",
+    "aws-sdk": "^2.382.0",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.16.0",
+    "compress-images": "^1.4.6",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "jsonwebtoken": "^8.3.0",
+    "method-override": "^3.0.0",
+    "mongo-sanitize": "^1.0.1",
+    "mongodb": "^3.1.8",
+    "mongoose": "^5.4.1",
+    "mongoose-gridfs": "^0.6.2",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "^1.9.1",
+    "multiparty": "^4.2.1",
+    "nodemailer": "^4.6.8",
+    "nodemailer-ses-transport": "^1.5.0",
+    "nodemailer-smtp-transport": "^2.7.2",
+    "tiny-worker": "^2.1.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "david": "^11.0.0",
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "check-outdated": "npm outdated && david",
+    "update-outdated": "npm update && david update",
+    "start": "nodemon server.js"
+  }
+}
